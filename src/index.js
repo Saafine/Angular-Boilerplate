@@ -19,4 +19,5 @@ ang1.controller('testController', ['$scope', function ($scope) {
   $scope.testFunc = function () {
     console.log('working');
   };
+  $scope.testVariable = 'working variable';
 }]);
